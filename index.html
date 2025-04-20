@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Web Page</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <div class="navbar">
+      <div class="logo">My Logo</div>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#login">Login</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <section id="home" class="home">
+      <div class="container grid">
+        <div class="home-text">
+          <h1>Responsive Web Pages</h1>
+          <p>Responsive web design is an approach that makes web pages render well on a variety of devices and screen
+            sizes.</p>
+          <a href="#features" class="btn btn-outline">Learn More</a>
+        </div>
+        <div class="home-form card">
+          <h2>Get Started</h2>
+          <form id="login">
+            <div class="form-control">
+              <input type="text" name="name" placeholder="Name" required>
+            </div>
+            <div class="form-control">
+              <input type="email" name="email" placeholder="Email" required>
+            </div>
+            <div class="form-control">
+              <input type="password" name="password" placeholder="Password" required>
+            </div>
+            <input type="submit" value="Login" class="btn btn-primary">
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section id="features" class="features">
+      <div class="features-text">
+        <h2>Why Responsive Design?</h2>
+        <p>Responsive web design is essential for modern websites to provide a seamless and accessible experience for
+          users on any device.</p>
+      </div>
+      <div class="container-features">
+        <h2>Features of Responsive Pages</h2>
+        <ul>
+          <li>Flexible Layouts</li>
+          <li>Media Queries</li>
+          <li>Fluid Images</li>
+          <li>Mobile First Design</li>
+          <li>Touch Friendly Elements</li>
+          <li>Viewport Meta Tag</li>
+          <li>Consistent User Experience</li>
+          <li>Improved Performance</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2>Contact Me</h2>
+        <p>If you have any questions on Responsive pages feel free to reach out</p>
+        <form class="contact-form">
+          <div class="form-control">
+            <input type="text" name="name" placeholder="Your Name" required>
+          </div>
+          <div class="form-control">
+            <input type="email" name="email" placeholder="Your Email" required>
+          </div>
+          <div class="form-control">
+            <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+          </div>
+          <input type="submit" value="Send Message" class="btn btn-primary">
+        </form>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div>
+        <h3>Golibe</h3>
+        <p>&copy; 2025 Golibe's website. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+
+</html>
